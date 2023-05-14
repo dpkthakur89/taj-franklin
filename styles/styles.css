@@ -138,18 +138,19 @@ a.button:any-link, button {
   box-sizing: border-box;
   text-decoration: none;
   border: 2px solid transparent;
-  padding: 5px 30px;
+  padding: 5px 10px;
   text-align: center;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   cursor: pointer;
   color: var(--background-color);
-  background-color: var(--link-color);
+  background-color: #d29751;
+  background: linear-gradient(to top, #aa7938, #aa7938 33%, #d29751);
   margin: 16px 0;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  border-radius: 30px;
+  border-radius: 5px;
 }
 
 a.button:hover, a.button:focus, button:hover, button:focus  {
@@ -240,4 +241,36 @@ main .section {
 /* section metadata */
 main .section.highlight {
   background-color: var(--highlight-background-color);
+}
+
+/* slider css */
+
+.icon-leftarrow svg{
+
+  width: 100px;
+  height: 300%;
+  fill: rgba(210, 151, 81, 0.8);
+  font-weight: 1000;
+  display: inline-block;
+  margin-bottom: -19em;
+}
+
+.icon-rightarrow svg{
+  width: 100px;
+  height: 300%;
+  display: inline-block;
+  fill: rgba(210, 151, 81, 0.8);
+  font-weight: 100;
+  margin-left:92em; 
+  margin-bottom: -21.5em;
+
+}
+
+h2{
+  font-size: 3rem;
+font-weight: 500;
+font-family: Helvetica, sans-serif;
+line-height: 1;
+text-align: center;
+
 }

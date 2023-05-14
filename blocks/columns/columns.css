@@ -31,3 +31,59 @@
     order: unset;
   }
 }
+
+
+
+.columns.taj.block {
+  background-color: red;
+  box-sizing: border-box;
+  display: inline;
+  height: 100%;
+  border: 1px solid;
+}
+
+.columns.taj.block img{
+  height: 100%;
+  object-fit: fill;
+  width: fit-content;
+}
+
+
+.columns.taj.block div{
+  height: 100%;
+  object-fit: fill;
+  gap: 0px;
+}
+
+.displayNo{
+  display: none !important;
+}
+
+.displayNoAlways{
+  display: none !important;
+}
+
+.displayYes{
+  display: block;
+}
+
+.columns.offers.block{
+  display: inline-flex;
+}
+
+.columns.services.block {
+  background-color: red;
+  box-sizing: content-box;
+  display: grid;
+  height: 100%;
+  border: 1px solid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 5vw);
+}
+
+.columns.services.blocks div:first-child {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
